@@ -21,7 +21,7 @@ Train parameters: optimizer adam, batch size 10, epochs 100
 # Sources
 - server.py contains API logic
 - modedl.py contains ML logic, predict iris sort
-- Dockerfile decribe a docker image that is used to run API
+- Dockerfile describe a docker image that is used to run API
 - my_model folder contains pretrainable weights fro model
 
 # How to run
