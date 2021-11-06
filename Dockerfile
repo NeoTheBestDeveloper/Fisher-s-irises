@@ -1,11 +1,11 @@
-FROM python:3.6
+FROM tensorflow/tensorflow
 
 RUN mkdir /usr/src/app/
 WORKDIR /usr/src/app/
 
 COPY . /usr/src/app/
-RUN pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
 
 EXPOSE 5000
 
-CMD ["python", "server.py"]
+CMD ["python3", "server.py"]
