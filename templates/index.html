@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Fisher's Iris</title>
+		<script src="{{url_for('static', filename='js/script.js')}}"></script>
+		<script src="{{url_for('static', filename='js/API/api.js')}}"></script>
+	</head>
+	<body>
+		<div class="container">
+			<form
+				action="/predict"
+				onsubmit="predictIrisSort(this); return false"
+			>
+				<input
+					type="text"
+					class="sepal_length"
+					placeholder="sepal_length"
+					required
+				/>
+				<input
+					type="text"
+					class="sepal_width"
+					placeholder="sepal_width"
+					required
+				/>
+				<input
+					type="text"
+					class="petal_length"
+					placeholder="petal_length"
+					required
+				/>
+				<input
+					type="text"
+					class="petal_width"
+					placeholder="petal_width"
+					required
+				/>
+				<button type="submit">Предсказать сорт</button>
+				<div id="form-alert"></div>
+			</form>
+			<div class="predict"></div>
+		</div>
+	</body>
+</html>
