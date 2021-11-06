@@ -12,6 +12,7 @@ Model classify iris sort from these data.
 Model have two layers
 - Dense 12 units, activation=relu
 - Dense 3 units, actiovation=softmax
+
 Train parameters: optimizer adam, batch size 10, epochs 100
 
 # Model score
