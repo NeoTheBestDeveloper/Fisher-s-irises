@@ -15,7 +15,7 @@ Model have two layers
 Train parameters: optimizer adam, batch size 10, epochs 100
 
 # Model score
-- Categorical crossentropy: 0.2551
+- Categorical crossentropy loss: 0.2551
 - Accuracy: 0.9778
 
 # Sources
