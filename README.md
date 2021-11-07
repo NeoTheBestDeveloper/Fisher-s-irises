@@ -30,4 +30,4 @@ Train parameters: optimizer adam, batch size 10, epochs 100
 - Clon repository to your work directory `git clone https://github.com/NeoTheBestDeveloper/Fisher-s-irises.git`
 - Build docker image `docker build . -t <your image name>`
 - Run docker image `docker run --name iris --rm -p 5000:5000 <your image name>`
-- Go to browser to API from flask log or that your write in server.py
+- Go to url from flask log or that your write in server.py
